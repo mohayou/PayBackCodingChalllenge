@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PayBackCodingChallenge</string>
+    <string name="search">Search</string>
+    <string name="downloads">Downloads: </string>
+    <string name="likes">Likes: </string>
+    <string name="comments">Comments: </string>
+    <string name="views">Views: </string>
+    <string name="image_details">Image Details</string>
+    <string name="show_details">Are you sure you want to display detiails</string>
+    <string name="ok">Ok</string>
+    <string name="no">No</string>
+
+</resources>
