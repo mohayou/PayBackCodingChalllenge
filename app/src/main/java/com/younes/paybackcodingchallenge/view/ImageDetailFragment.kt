@@ -54,12 +54,4 @@ class ImageDetailFragment @Inject constructor(private val glide: RequestManager)
             glide.load(url).into(ivRowImage)
         }
     }
-
-    private fun displayImageDetails(imageResult: ImageResult) {
-        tvViews.text = "Views: ${imageResult.views}"
-        tvViews.text = "Downloads: ${imageResult.downloads}"
-        tvViews.text = "Comments: ${imageResult.comments}"
-
-        glide.load(imageResult.largeImageURL).into(ivRowImage)
-    }
 }
